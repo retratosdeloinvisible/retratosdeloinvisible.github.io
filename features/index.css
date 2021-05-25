@@ -101,7 +101,7 @@
   padding-bottom: 40%; /*16:9*/
   padding-top: 50px ;
   height: 0;
-  z-index: 100;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+  z-index: 70;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
 .videowrapper2 iframe {
@@ -142,6 +142,7 @@ img:hover {
   cursor: pointer;
 } /* hace que se active la manito del mouse donde se hace click */
 
+
 #fondopaginas {
   position:fixed;
   width: 100%;
@@ -150,6 +151,80 @@ img:hover {
   left: 0;
   z-index: -100;  /*hace que este atras el fondo*/
 }
+
+/*PAGINA 1 */ 
+#angel {   /* simbolo a index */
+  position: fixed;
+  left: 6%;
+  top: 40% ;
+  width: 150px; 
+  height: 180px;
+  background: transparent;
+  z-index: 90;
+} 
+
+
+/* PAGINA 2 */
+#lagrima {
+position: absolute;
+width: 60px;
+height: 110px;
+top:65%;
+right:5%;
+z-index: 100;
+}
+#florci {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  top:50%;
+  left:6%;
+  z-index: 60;
+}
+
+#gif-click4 { /* gif iphone mai  */
+  position: absolute;
+  width: 350px;
+  height: 210px;
+  top:13%;
+  left:8%;
+  z-index: 100;
+}
+    
+#click4 { /* imagen love me */
+  position: absolute; 
+  width: 330px;
+  height: 180px;
+  top:13%;
+  left:8%;
+  background: transparent;
+  font-weight: bold;
+  z-index: 90;
+}
+
+#gif-click5 { /* imagen florci */
+  position: absolute;
+  width: 150px;
+  height: 220px;
+  top:70%;
+  left:6%;
+  z-index: 90;
+}
+    
+#click5 { /* imagen look at my eyes  */
+ 
+  position: absolute;
+  width: 190px;
+  height: 30px;
+  top:70%;
+  left:6%;
+  z-index: 90; 
+}
+
+/* PAGINA 3 */
+
+
+
 
 
 #gif-click {
@@ -222,5 +297,6 @@ img:hover {
   height: 200px;
   background: transparent;
   font-weight: bold;
+  z-index: 80;
 } /*imagen donde se clickea para activación de sonido extra  */
 
