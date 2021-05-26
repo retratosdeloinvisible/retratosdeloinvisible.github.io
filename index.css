@@ -9,6 +9,7 @@ img:hover {
   height: 100%;
   top: 0;
   left: 0;
+  cursor: none; /*desaparece el cursor donde no se clickea */
   z-index: -100;  /*hace que este atras el fondo*/
 }
 
