@@ -373,7 +373,7 @@ z-index: 100;
 /*PAGINA 6 */
 #gif-click6 { /* ojozoom  */
   position: absolute;
-  width: 330px;
+  width: 200px;
   height: 180px;
   top:15%;
   left:8%;
@@ -382,7 +382,7 @@ z-index: 100;
     
 #click6 { /* ojo */
   position: absolute; 
-  width: 350px;
+  width: 270px;
   height: 210px;
   top:13%;
   left:8%;
