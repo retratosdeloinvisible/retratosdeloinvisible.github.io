@@ -1,4 +1,54 @@
-/*CSS de pagina principal  */
+/*CSS de pagina 7  */
+.wrapper {
+  margin : 0 auto;
+  width: 80%; /*porcentaje de la pantalla navegador*/
+}
+
+.videowrapper7  { /*PAGINA 2*/
+  position: relative;
+  padding-bottom: 28%; /*16:9*/
+  padding-top: 0 ;
+  height: 0;
+  z-index: 10;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper7 iframe { /*PAGINA 2*/
+  position:absolute ;
+  left :30%;
+  top: 90%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 40%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 81%;
+  cursor: none;
+  pointer-events: none; 
+}
+
+
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+
+.vid-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  padding: 1rem;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+    
+@media all and (max-width: 600px) { 
+    .vid-info .acronym {
+        display: none;
+    } /* HACE QUE LOS CONTROLES E INFO DEL VIDEO NO SE VEAN ( SOLO SE VEN EL PRIMER SEGUNDO DE REPRODUCCION ) */
+} /*CONFIGURACION VIDEO principal páginas  */
+
+
 img:hover {
     cursor: pointer;
   }
@@ -13,6 +63,16 @@ img:hover {
     z-index: -100;  /*hace que este atras el fondo*/
   }
   
+  #angel {   /* simbolo a index */
+    position: fixed;
+    left: 85%;
+    top: 7% ;
+    width: 160px; 
+    height: 200px;
+    background: transparent;
+    z-index: 90;
+  } 
+
   #gif-click { /* abstract gif*/
     position: absolute;
     width: 40%;

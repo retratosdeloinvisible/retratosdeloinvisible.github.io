@@ -94,7 +94,7 @@
   margin : 0 auto;
   width: 80%; /*porcentaje de la pantalla navegador*/
 }
-.videowrapper2  { /*PAGINA 2*/
+.videowrapper2  { /*PAGINA 1*/
   position: relative;
   padding-bottom: 31%; /*16:9*/
   padding-top: 50px ;
@@ -102,10 +102,10 @@
   z-index: 70;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper2 iframe { /*PAGINA 2*/
+.videowrapper2 iframe { /*PAGINA 1*/
   position:absolute ;
   left :35%;
-  top: 25%;
+  top: 15%;
   right: 0 ; /*posicion video */
   bottom: 0;
   width: 27%;  /*recorte horizontal y vertical de cuadro imagen*/
@@ -113,25 +113,64 @@
   pointer-events: none; 
 }  
 
-.videowrapper3  {
+.videowrapper3  { /*PAGINA 1*/
   position: fixed;
   padding-bottom: 0%; /*16:9*/
   padding-top: 3% ;
   height: 0;
-  z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+  z-index: 40;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper3 iframe {
+.videowrapper3 iframe { /*PAGINA 1*/
   position: fixed ;
-  left :56%;
+  left :30%;
   top: 50%;
   right: 0 ; /*posicion video */
   bottom: 0;
   width: 24%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 40%;
-  z-index: 90;  
+  height: 36%;
+  z-index: 40;  
   pointer-events: none; 
 }  
+
+.videowrapper8  { /*PAGINA 1*/
+  position: relative;
+  padding-bottom: 32%; /*16:9*/
+  padding-top: 50px ;
+  height: 0;
+  z-index: 60;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper8 iframe { /*PAGINA 1*/
+  position:absolute ;
+  left :70%;
+  top: -190;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 78%;
+  pointer-events: none; 
+} 
+
+.videowrapper6  { /*PAGINA 2*/
+  position: relative;
+  padding-bottom: 28%; /*16:9*/
+  padding-top: 0 ;
+  height: 0;
+  z-index: 10;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper6 iframe { /*PAGINA 2*/
+  position:absolute ;
+  left :30%;
+  top: 90%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 40%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 81%;
+  cursor: none;
+  pointer-events: none; 
+}
 
 
 .videowrapper4  { /*PAGINA 4*/
@@ -173,25 +212,8 @@
   pointer-events: none; 
 }  
 
-.videowrapper6  { /*PAGINA 2*/
-  position: relative;
-  padding-bottom: 28%; /*16:9*/
-  padding-top: 0 ;
-  height: 0;
-  z-index: 10;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
-}
- 
-.videowrapper6 iframe { /*PAGINA 2*/
-  position:absolute ;
-  left :30%;
-  top: 90%;
-  right: 0 ; /*posicion video */
-  bottom: 0;
-  width: 40%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 81%;
-  cursor: none;
-  pointer-events: none; 
-}
+
+
 
 
 #vidtop-content {
@@ -247,8 +269,8 @@ img:hover {
 
 #gif-clickc {  /*TECHO */
   position: fixed;
-  width: 30%;
-  height: 50%;
+  width: 250px;
+  height: 200px;
   top: 60%;
   left: 2%;
   display: inline-block;
@@ -256,9 +278,9 @@ img:hover {
 
 #clickc{ /*LINK */
   position: fixed;
-  bottom: calc(40% - 200px) ;
-  width: 300px;
-  height: 40px;
+  bottom: calc(50% - 200px) ;
+  width: 320px;
+  height: 30px;
   background: transparent;
   font-weight: bold;
 }
@@ -419,12 +441,12 @@ z-index: 100;
   z-index: 100;
 }/*imagen donde se clickea para activacion de sonido*/
 
-#look {   /* simbolo a index */
+#iphone {   /* simbolo a 7*/
   position: fixed;
   left: 85%;
   top: 7% ;
-  width: 160px; 
-  height: 30px;
+  width: 90px; 
+  height: 170px;
   background: transparent;
   z-index: 100;
 } 
