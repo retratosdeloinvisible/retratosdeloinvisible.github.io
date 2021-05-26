@@ -1,10 +1,26 @@
+
+/* pagina 1 */
+
 function play() {
     var audio = document.getElementById("audio");
     audio.play();
 }
 
+
+/* pagina 2  */
 function play2() {
     var audio = document.getElementById("audio2");
+    audio.play();
+}
+
+/* pagina 3 */
+function play3() {
+    var audio = document.getElementById("audio3");
+    audio.play();
+}
+
+function play4() {
+    var audio = document.getElementById("audio4");
     audio.play();
 }
 $(function() {
@@ -62,6 +78,24 @@ $(function() {
 
 
 /*PAGINA 2 */
+
+$(function() {
+    $('#gif-clickc').hide();
+
+    $('#clickc').click(function() {
+        $('#clickc').hide();
+        $('#gif-clickc').show();
+
+    });
+
+    if ($('#clickc').data("clicked", true)) {
+        $('#gif-clickc').click(function() {
+            $('#clickc').show();
+            $('#gif-clickc').hide();
+        
+        });
+    }
+});
 $(function() {
     $('#gif-click4').hide();
 
@@ -93,6 +127,31 @@ $(function() {
         $('#gif-click5').click(function() {
             $('#click5').show();
             $('#gif-click5').hide();
+        
+        });
+    }
+});
+
+/*PAGINA 6*/
+function play6() {
+    var audio = document.getElementById("audio6");
+    audio.play();
+}
+
+
+$(function() {
+    $('#gif-click6').hide();
+
+    $('#click6').click(function() {
+        $('#click6').hide();
+        $('#gif-click6').show();
+
+    });
+
+    if ($('#click6').data("clicked", true)) {
+        $('#gif-click6').click(function() {
+            $('#click6').show();
+            $('#gif-click6').hide();
         
         });
     }
