@@ -133,6 +133,64 @@ $(function() {
     }
 });
 
+/*PAGINA 4*/
+
+$(function() {
+    $('#gif-click7').hide();
+
+    $('#click7').click(function() {
+        $('#click7').hide();
+        $('#gif-click7').show();
+
+    });
+
+    if ($('#click7').data("clicked", true)) {
+        $('#gif-click7').click(function() {
+            $('#click7').show();
+            $('#gif-click7').hide();
+        
+        });
+    }
+});
+
+
+$(function() {
+    $('#gif-click8').hide();
+
+    $('#click8').click(function() {
+        $('#click8').hide();
+        $('#gif-click8').show();
+
+    });
+
+    if ($('#click8').data("clicked", true)) {
+        $('#gif-click8').click(function() {
+            $('#click8').show();
+            $('#gif-click8').hide();
+        
+        });
+    }
+});
+
+$(function() {
+    $('#gif-click9').hide();
+
+    $('#click9').click(function() {
+        $('#click9').hide();
+        $('#gif-click9').show();
+
+    });
+
+    if ($('#click9').data("clicked", true)) {
+        $('#gif-click9').click(function() {
+            $('#click9').show();
+            $('#gif-click9').hide();
+        
+        });
+    }
+});
+
+
 /*PAGINA 6*/
 function play6() {
     var audio = document.getElementById("audio6");

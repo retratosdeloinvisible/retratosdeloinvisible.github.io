@@ -173,7 +173,7 @@
 }
 
 
-.videowrapper4  { /*PAGINA 4*/
+.videowrapper4  { /*PAGINA 4 desactivado*/
   position: fixed;
   padding-bottom: 80%; /*16:9*/
   padding-top: 3% ;
@@ -181,19 +181,19 @@
   z-index:80;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper4 iframe {   /*PAGINA 4*/
+.videowrapper4 iframe {   /*PAGINA 4* desactivado/
   position: fixed ;
   left :57%;
-  top: 47%;
+  top: 52%;
   right: 0 ; /*posicion video */
   bottom: 0;
-  width: 22%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 30%;
+  width: 25%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 34%;
   z-index: 80;  
   pointer-events: none; 
 }  
 
-.videowrapper5  { /*PAGINA 4*/
+.videowrapper5  { /*PAGINA 4 desactivado*/
   position: relative;
   padding-bottom: 31%; /*16:9*/
   padding-top: 50px ;
@@ -201,18 +201,35 @@
   z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper5 iframe { /*PAGINA 4*/
+.videowrapper5 iframe { /*PAGINA 4 desactivado*/
   position:absolute ;
-  left :35%;
-  top: 25%;
+  left :6%;
+  top: 85%;
   right: 0 ; /*posicion video */
   bottom: 0;
-  width: 32%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 51%;
+  width: 35%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 56%;
   pointer-events: none; 
 }  
 
-
+.videowrapper9  { /*PAGINA 4 desactivado*/
+  position: fixed;
+  padding-bottom: 1%; /*16:9*/
+  padding-top: 5px ;
+  height: 0;
+  z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper9 iframe {/*PAGINA 4 desactivado*/
+  position:fixed ;
+  left :35%;
+  top: 15%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 35%;
+  pointer-events: none; 
+}
 
 
 
@@ -431,13 +448,11 @@ z-index: 100;
 
 #sonido3 {
   position: absolute;
-  top:30%;
-  left:20%;
-  width: 150px;
-  height: 100px;
+  top:70%;
+  left:45%;
+  width: 100px;
+  height: 110px;
   background: transparent;
-  font-weight: bold;
-  filter: invert(1);
   z-index: 100;
 }/*imagen donde se clickea para activacion de sonido*/
 
@@ -451,7 +466,73 @@ z-index: 100;
   z-index: 100;
 } 
 
+
+#gif-click7 { /*VIDEO pablo*/
+  position: fixed ;
+  left :57%;
+  top: 52%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 25%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 34%;
+  z-index: 100;  
+ pointer-events: none;
+}
+
+#click7 { /* planta gif*/
+  position: FIXED;
+  width: 200px;
+  height: 270px;
+  top:55%;
+  left:62%;
+  z-index: 100;
+}
+
+
+#gif-click8 { /*VIDEO grego*/
+  position:absolute ;
+  left :35%;
+  top: 15%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 35%;
+  z-index: 100;  
+  pointer-events: none; 
+}
+
+#click8 { /* planta gif*/
+  position: absolute ;
+  width: 200px;
+  height: 270px;
+  top:15%;
+  left:42%;
+  z-index: 100;
+}
+
+#gif-click9 { /*VIDEO Juan*/
+  position:absolute ;
+  left :13%;
+  top: 52%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 35%;
+  z-index: 90;  
+  pointer-events: none; 
+}
+
+#click9 { /* planta gif*/
+  position: absolute ;
+  width: 200px;
+  height: 270px;
+  top:56%;
+  left:22%;
+  z-index: 100;
+}
+
 /*PAGINA 6 */
+
 #gif-click6 { /* ojozoom  */
   position: absolute;
   width: 200px;
