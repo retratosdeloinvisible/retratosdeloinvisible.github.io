@@ -301,7 +301,7 @@
  
 .videowrapper12 iframe {/*PAGINA 5 video santi*/
   position:fixed ;
-  left :25%;
+  left :35%;
   top: 35%;
   right: 0 ; /*posicion video */
   bottom: 0;
@@ -620,7 +620,7 @@ z-index: 100;
 #sonido4 {
   position: absolute;
   top:70%;
-  left:40%;
+  left:42%;
   width: 80px;
   height: 90px;
   background: transparent;
@@ -629,48 +629,45 @@ z-index: 100;
 
 }
 
-
-
 #rosastiradas {   /* gifrossad*/
   position: fixed;
-  left: 7%;
-  top: 9% ;
-  width: 250px; 
-  height: 200px;
+  left: 78%;
+  top: 15% ;
+  width: 280px; 
+  height: 230px;
   background: transparent;
-  z-index: 100;
+  z-index: 80;
+  pointer-events: none;
 } 
-
 
 #poesiapagina4 {   /* poessiaa 7*/
   position: fixed;
-  left: 75%;
-  top: 11% ;
-  width: 300px; 
-  height: 150px;
+  left: 65%;
+  top: 5% ;
+  width: 250px; 
+  height: 120px;
   background: transparent;
   z-index: 100;
 } 
 
 
-#gif-click15 { /*gifff*/
+#gif-click15 { /*choquee*/
   position: fixed ;
-  left :57%;
-  top: 52%;
+  left :-15%;
+  top: -25%;
   right: 0 ; /*posicion video */
   bottom: 0;
-  width: 25%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 34%;
-  z-index: 100;  
- pointer-events: none;
+  width: 1000px;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 700px;
+  z-index: 20;  
 }
 
 #click15 { /* imagen*/
   position: FIXED;
   width: 200px;
-  height: 270px;
-  top:55%;
-  left:62%;
+  height: 200px;
+  top:10%;
+  left:6%;
   z-index: 100;
 }
 
@@ -742,13 +739,35 @@ z-index: 100;
 
 /*PAGINA 5 */
 
+
+#carita{
+  position: FIXED;
+  width: 200px;
+  height: 200px;
+  top:50%;
+  left:60%;
+  z-index: 1100;
+  pointer-events: none;
+}
+
+
+#puchitos{
+  position: FIXED;
+  width: 250px;
+  height: 200px;
+  top:10%;
+  left:10%;
+  z-index: 100;
+pointer-events: none;
+}
+
 #poesiapagina5 {
   position: absolute;
   width: 500px;
   height: 500px;
   top:7%;
   right:25%;
-  z-index: 100; 
+  z-index: 70; 
 }
 
 /*PAGINA 6 */
