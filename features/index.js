@@ -19,6 +19,14 @@ function play3() {
     audio.play();
 }
 
+/* pagina 6 */
+function play4() {
+    var audio = document.getElementById("audio6");
+    audio.play();
+}
+
+
+
 $(function() {
     $('#gif-click').hide();
 

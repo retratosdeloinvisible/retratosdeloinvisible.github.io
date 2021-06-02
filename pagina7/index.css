@@ -14,16 +14,37 @@
  
 .videowrapper7 iframe { /*PAGINA 2*/
   position:absolute ;
-  left :30%;
-  top: 90%;
+  left :0%;
+  top: 150%;
   right: 0 ; /*posicion video */
   bottom: 0;
-  width: 40%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 81%;
+  width: 10%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 31%;
   cursor: none;
   pointer-events: none; 
 }
 
+
+
+.videowrapper13  { /*PAGINA 6 */
+  position: fixed;
+  padding-bottom: 80%; /*16:9*/
+  padding-top: 3% ;
+  height: 0;
+  z-index:80;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper13 iframe {   /*PAGINA 6* desactivado*/
+  position: fixed ;
+  left :40%;
+  top: 22%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 20%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 70%;
+  z-index: 80;  
+  pointer-events: none; 
+}  
 
 #vidtop-content {
 	top: 0;
@@ -53,13 +74,13 @@ img:hover {
     cursor: pointer;
   }
   
-  #fondopaginas {
+  #fondopaginas2 {
     position:fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    cursor: none; /*desaparece el cursor donde no se clickea */
+    pointer-events: none; /*desaparece el cursor donde no se clickea */
     z-index: -100;  /*hace que este atras el fondo*/
   }
   
