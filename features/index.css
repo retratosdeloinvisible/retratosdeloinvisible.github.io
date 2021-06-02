@@ -751,12 +751,22 @@ z-index: 100;
 }
 
 
+#broken{
+  position: FIXED;
+  width: 300px;
+  height: 200px;
+  top:40%;
+  left:80%;
+  z-index: 1100;
+  pointer-events: none;
+}
+
 #puchitos{
   position: FIXED;
   width: 250px;
   height: 200px;
-  top:10%;
-  left:10%;
+  top:25%;
+  left:5%;
   z-index: 100;
 pointer-events: none;
 }
