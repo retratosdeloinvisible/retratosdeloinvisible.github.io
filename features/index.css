@@ -157,7 +157,9 @@
   padding-bottom: 28%; /*16:9*/
   padding-top: 0 ;
   height: 0;
-  z-index: 10;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+  cursor: none;
+  pointer-events: none;
+  z-index: 30;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
 .videowrapper6 iframe { /*PAGINA 2*/
@@ -367,7 +369,8 @@ img:hover {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -100;  /*hace que este atras el fondo*/
+  cursor: none;
+  z-index: 20;  /*hace que este atras el fondo*/
 }
 
 
@@ -532,10 +535,10 @@ z-index: 100;
   z-index: 60;
 }
 
-#sonido2 {
+#sonido2 { /*camgirl*/
   position: absolute;
   top:4%;
-  left:4%;
+  left:25%;
   width: 160px;
   height: 80px;
   background: transparent;
