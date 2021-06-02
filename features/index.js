@@ -19,12 +19,16 @@ function play3() {
     audio.play();
 }
 
-/* pagina 6 */
 function play4() {
-    var audio = document.getElementById("audio6");
+    var audio = document.getElementById("audio4");
     audio.play();
 }
 
+/* pagina 6 */
+function play6() {
+    var audio = document.getElementById("audio6");
+    audio.play();
+}
 
 
 $(function() {
@@ -245,6 +249,26 @@ $(function() {
 });
 
 
+$(function() {
+    $('#gif-click15').hide();
+
+    $('#click15').click(function() {
+        $('#click15').hide();
+        $('#gif-click15').show();
+
+    });
+
+    if ($('#click15').data("clicked", true)) {
+        $('#gif-click15').click(function() {
+            $('#click15').show();
+            $('#gif-click15').hide();
+        
+        });
+    }
+});
+
+
+
 /*PAGINA 6*/
 function play6() {
     var audio = document.getElementById("audio6");
@@ -265,6 +289,24 @@ $(function() {
         $('#gif-click6').click(function() {
             $('#click6').show();
             $('#gif-click6').hide();
+        
+        });
+    }
+});
+
+$(function() {
+    $('#gif-click14').hide();
+
+    $('#click14').click(function() {
+        $('#click14').hide();
+        $('#gif-click14').show();
+
+    });
+
+    if ($('#click14').data("clicked", true)) {
+        $('#gif-click14').click(function() {
+            $('#click14').show();
+            $('#gif-click14').hide();
         
         });
     }
