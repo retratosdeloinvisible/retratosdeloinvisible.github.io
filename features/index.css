@@ -206,7 +206,7 @@
 .videowrapper9 iframe {/*PAGINA 3 video mai*/
   position:fixed ;
   left :58%;
-  top: 35%;
+  top: 30%;
   right: 0 ; /*posicion video */
   bottom: 0;
   width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
@@ -214,7 +214,7 @@
   pointer-events: none; 
 }
 
-.videowrapper13  { /*PAGINA 3 video mai*/
+.videowrapper13  { /*PAGINA 3 video pintura */
   position: fixed;
   padding-bottom: 1%; /*16:9*/
   padding-top: 5px ;
@@ -228,10 +228,33 @@
   top: 11%;
   right: 0 ; /*posicion video */
   bottom: 0;
-  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 32%;
+  width: 24%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 36%;
   pointer-events: none; 
 }
+
+
+.videowrapper15  { /*PAGINA 3 videopintura juan */
+  position: fixed;
+  padding-bottom: 1%; /*16:9*/
+  padding-top: 5px ;
+  height: 0;
+  z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper15 iframe {/*PAGINA 3 video pintura juan */
+  position:fixed ;
+  left :54%;
+  top: 66%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 24%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 28%;
+  pointer-events: none; 
+}
+
+
+
 
 .videowrapper  { /*PAGINA 3 video pablo*/
   position: fixed;
@@ -572,7 +595,7 @@ z-index: 100;
   width: 200px;
   height: 200px;
   left: calc(80% - 130px);
-  top: calc(25% - 150px) ;
+  top: calc(20% - 150px) ;
   display: inline-block;
   z-index: 60;
 }
