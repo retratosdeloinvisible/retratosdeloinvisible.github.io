@@ -73,6 +73,42 @@ img:hover {
     z-index: 90;
   } 
 
+  #angelcaido {
+    position: fixed;
+    left: 80%;
+    top: 80% ;
+    width:200px; 
+    height: 300px;
+    background: transparent;
+    z-index: 90;
+    pointer-events: none;
+  
+  }
+
+
+#iphone {
+  position: fixed;
+  left: 0%;
+  top: 0% ;
+  width: 250px; 
+  height: 500px;
+  background: transparent;
+  z-index: 90;
+  pointer-events: none;
+
+}
+#poesiacompleta {   /* simbolo a index */
+  position: fixed;
+  left: -10%;
+  top: -5% ;
+  width: 900px; 
+  height: 800px;
+  background: transparent;
+  z-index: 90;
+  pointer-events: none;
+} 
+
+
   #gif-click { /* abstract gif*/
     position: absolute;
     width: 40%;

@@ -1,6 +1,6 @@
 
 
-/* { 
+ *{ 
   box-sizing: border-box;
 } 
 
@@ -85,7 +85,7 @@
     .vid-info .acronym {
         display: none;
     }
-} ///*video de fondo configuracion */
+} /*video de fondo configuracion */
 /*CONFIGURACION video no usada sin modificar*/
 
 
@@ -113,7 +113,7 @@
   pointer-events: none; 
 }  
 
-.videowrapper3  { /*PAGINA 1*/
+.videowrapper3  { /*PAGINA 1 y pablo pagina 3*/
   position: fixed;
   padding-bottom: 0%; /*16:9*/
   padding-top: 3% ;
@@ -121,7 +121,7 @@
   z-index: 40;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper3 iframe { /*PAGINA 1*/
+.videowrapper3 iframe { /*PAGINA 1 y pabl Pagina3*/
   position: fixed ;
   left :30%;
   top: 50%;
@@ -172,6 +172,45 @@
   pointer-events: none; 
 }
 
+/*pagina 3*/
+
+.videowrapper10  { /*PAGINA 3 fondo*/
+  position: relative;
+  padding-bottom: 100%; /*16:9*/
+  padding-top: 100% ;
+  height: 0;
+  z-index: 10;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper10 iframe {/*PAGINA 3fondo*/
+  position:absolute ;
+  left :0%;
+  top: 0%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 50%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 50%;
+  pointer-events: none; 
+}
+
+.videowrapper9  { /*PAGINA 3 video mai*/
+  position: fixed;
+  padding-bottom: 1%; /*16:9*/
+  padding-top: 5px ;
+  height: 0;
+  z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
+}
+ 
+.videowrapper9 iframe {/*PAGINA 3 video mai*/
+  position:fixed ;
+  left :60%;
+  top: 15%;
+  right: 0 ; /*posicion video */
+  bottom: 0;
+  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
+  height: 32%;
+  pointer-events: none; 
+}
 
 .videowrapper4  { /*PAGINA 4 desactivado*/
   position: fixed;
@@ -181,7 +220,7 @@
   z-index:80;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
 }
  
-.videowrapper4 iframe {   /*PAGINA 4* desactivado/
+.videowrapper4 iframe {   /*PAGINA 4* desactivado*/
   position: fixed ;
   left :57%;
   top: 52%;
@@ -212,24 +251,7 @@
   pointer-events: none; 
 }  
 
-.videowrapper9  { /*PAGINA 4 desactivado*/
-  position: fixed;
-  padding-bottom: 1%; /*16:9*/
-  padding-top: 5px ;
-  height: 0;
-  z-index: 90;   /*POSICION ADELANTE O ATRAS CAPAS (- ES ATRAS + ES ADELANTE */
-}
- 
-.videowrapper9 iframe {/*PAGINA 4 desactivado*/
-  position:fixed ;
-  left :35%;
-  top: 15%;
-  right: 0 ; /*posicion video */
-  bottom: 0;
-  width: 28%;  /*recorte horizontal y vertical de cuadro imagen*/
-  height: 35%;
-  pointer-events: none; 
-}
+
 
 
 
@@ -427,23 +449,64 @@ z-index: 100;
 
 #maquinita {  /*mano */
   position: absolute;
-  width: 250px;
-  height: 310px;
-  top:10%;
-  right:70%;
+  width: 200px;
+  height: 260px;
+  top:65%;
+  right:85%;
   z-index: 100;
-
 }
 
 #hamaca {   
   position: fixed;
-  left: 35%;
+  left: 80%;
   top: 30% ;
-  width: 500px; 
-  height: 350px;
+  width: 300px; 
+  height: 200px;
   background: transparent;
   z-index: 90;
 } 
+
+#gif-click10 { /* cancan */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: calc(15% - 130px);
+  top: calc(20% - 150px) ;
+  display: inline-block;
+  z-index: 60;
+}
+    
+#click10 { /* florcitas */
+  position: absolute;
+  width: 180px;
+  height: 140px;
+  left: calc(15% - 130px);
+  top: calc(20% - 150px) ;
+  z-index: 60;
+}
+
+
+#gif-click11 { /*  */
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  left: calc(90% - 130px);
+  top: calc(90% - 150px) ;
+  display: inline-block;
+  z-index: 60;
+}
+    
+#click11 { /* florbrain */
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: calc(90% - 130px);
+  top: calc(100% - 150px) ;
+  z-index: 60;
+}
+
+
+
 /* PAGINA 4 */
 
 #sonido3 {
@@ -460,8 +523,8 @@ z-index: 100;
   position: fixed;
   left: 85%;
   top: 7% ;
-  width: 90px; 
-  height: 170px;
+  width: 200px; 
+  height: 200px;
   background: transparent;
   z-index: 100;
 } 

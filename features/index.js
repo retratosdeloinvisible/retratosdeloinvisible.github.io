@@ -133,6 +133,52 @@ $(function() {
     }
 });
 
+
+/*PAGINA 3*/
+
+
+$(function() {
+    $('#gif-click10').hide();
+
+    $('#click10').click(function() {
+        $('#click10').hide();
+        $('#gif-click10').show();
+
+    });
+
+    if ($('#click10').data("clicked", true)) {
+        $('#gif-click10').click(function() {
+            $('#click10').show();
+            $('#gif-click10').hide();
+        
+        });
+    }
+});
+
+
+$(function() {
+    $('#gif-click11').hide();
+
+    $('#click11').click(function() {
+        $('#click11').hide();
+        $('#gif-click11').show();
+
+    });
+
+    if ($('#click11').data("clicked", true)) {
+        $('#gif-click11').click(function() {
+            $('#click11').show();
+            $('#gif-click11').hide();
+        
+        });
+    }
+});
+
+
+
+
+
+
 /*PAGINA 4*/
 
 $(function() {
