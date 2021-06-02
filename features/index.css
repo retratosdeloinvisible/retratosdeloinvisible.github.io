@@ -617,11 +617,21 @@ z-index: 100;
   z-index: 100;
 }/*imagen donde se clickea para activacion de sonido*/
 
+#rosastiradas {   /* gifrossad*/
+  position: fixed;
+  left: 7%;
+  top: 9% ;
+  width: 250px; 
+  height: 200px;
+  background: transparent;
+  z-index: 100;
+} 
+
 
 #poesiapagina4 {   /* poessiaa 7*/
   position: fixed;
-  left: 3%;
-  top: 7% ;
+  left: 75%;
+  top: 11% ;
   width: 300px; 
   height: 150px;
   background: transparent;
