@@ -556,10 +556,10 @@ z-index: 100;
 
 #hamaca {   
   position: fixed;
-  left: 22%;
-  top: 7% ;
-  width: 500px; 
-  height: 300px;
+  left: 20%;
+  top: 6% ;
+  width: 560px; 
+  height: 330px;
   background: transparent;
   z-index: 20;
 } 
